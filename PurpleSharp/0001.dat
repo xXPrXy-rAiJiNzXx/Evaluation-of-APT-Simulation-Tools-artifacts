@@ -1,0 +1,568 @@
+﻿10/16/2025 18:25:52 [*]  Starting T1055.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:25:52 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:9992 as DESKTOP-G2OBL3D\student
+10/16/2025 18:25:54 [*]  Process Notepad.exe with PID:7644 started for the injection
+10/16/2025 18:25:55 [*]  Calling OpenProcess on PID:7644
+10/16/2025 18:25:55 [*]  Calling VirtualAllocEx on PID:7644
+10/16/2025 18:25:55 [*]  Calling WriteProcessMemory on PID:7644
+10/16/2025 18:25:55 [*]  Calling CreateRemoteThread on PID:7644
+10/16/2025 18:25:55 [*]  Simulation Finished
+10/16/2025 18:25:55 [*]  Playbook Finished
+10/16/2025 18:27:57 [*]  Playbook Finished
+10/16/2025 18:40:53 [*]  Playbook Finished
+10/16/2025 18:41:12 [*]  Starting T1055.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:41:12 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:720 as DESKTOP-G2OBL3D\student
+10/16/2025 18:41:13 [*]  Process Notepad.exe with PID:1940 started for the injection
+10/16/2025 18:41:14 [*]  Calling OpenProcess on PID:1940
+10/16/2025 18:41:14 [*]  Calling VirtualAllocEx on PID:1940
+10/16/2025 18:41:14 [*]  Calling WriteProcessMemory on PID:1940
+10/16/2025 18:41:14 [*]  Calling CreateRemoteThread on PID:1940
+10/16/2025 18:41:14 [*]  Simulation Finished
+10/16/2025 18:41:14 [*]  Playbook Finished
+10/16/2025 18:42:27 [*]  Starting T1055.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:42:27 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4644 as DESKTOP-G2OBL3D\student
+10/16/2025 18:42:27 [*]  Process Notepad.exe with PID:3348 started for the injection
+10/16/2025 18:42:28 [*]  Calling OpenProcess on PID:3348
+10/16/2025 18:42:28 [*]  Calling VirtualAllocEx on PID:3348
+10/16/2025 18:42:28 [*]  Calling WriteProcessMemory on PID:3348
+10/16/2025 18:42:28 [*]  Calling CreateRemoteThread on PID:3348
+10/16/2025 18:42:28 [*]  Simulation Finished
+10/16/2025 18:42:28 [*]  Playbook Finished
+10/16/2025 18:45:08 [*]  Starting T1087.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:45:08 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:472 as DESKTOP-G2OBL3D\student
+10/16/2025 18:45:08 [*]  Using the command line to execute the technique
+10/16/2025 18:45:08 [*]  Using the System.Diagnostics .NET namespace to execute 'net.exe user /domain'
+10/16/2025 18:45:08 [*]  Process successfully created. (PID): 4528
+10/16/2025 18:45:08 [*]  The request will be processed at a domain controller for domain WORKGROUP.
+10/16/2025 18:45:08 [*]  System error 1355 has occurred.
+10/16/2025 18:45:08 [*]  The specified domain either does not exist or could not be contacted.
+10/16/2025 18:45:08 [*]  Simulation Finished
+10/16/2025 18:45:08 [*]  Playbook Finished
+10/16/2025 18:45:54 [*]  Playbook Finished
+10/16/2025 18:46:34 [*]  Playbook Finished
+10/16/2025 18:47:01 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:47:01 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7360 as DESKTOP-G2OBL3D\student
+10/16/2025 18:47:01 [*]  Using the command line to execute the technique
+10/16/2025 18:47:01 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:47:01 [*]  Process successfully created. (PID): 6836
+10/16/2025 18:47:01 [*]  Simulation Finished
+10/16/2025 18:47:01 [*]  Playbook Finished
+10/16/2025 18:48:25 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:48:25 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:1364 as DESKTOP-G2OBL3D\student
+10/16/2025 18:48:25 [*]  Using the command line to execute the technique
+10/16/2025 18:48:25 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:48:25 [*]  Process successfully created. (PID): 7700
+10/16/2025 18:48:25 [*]  Simulation Finished
+10/16/2025 18:48:25 [*]  Playbook Finished
+10/16/2025 18:48:28 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:48:28 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:3320 as DESKTOP-G2OBL3D\student
+10/16/2025 18:48:28 [*]  Using the command line to execute the technique
+10/16/2025 18:48:28 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:48:28 [*]  Process successfully created. (PID): 3136
+10/16/2025 18:48:28 [*]  Simulation Finished
+10/16/2025 18:48:28 [*]  Playbook Finished
+10/16/2025 18:49:12 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:49:12 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7280 as DESKTOP-G2OBL3D\student
+10/16/2025 18:49:12 [*]  Using the command line to execute the technique
+10/16/2025 18:49:12 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:49:12 [*]  Process successfully created. (PID): 8152
+10/16/2025 18:49:12 [*]  Simulation Finished
+10/16/2025 18:49:12 [*]  Playbook Finished
+10/16/2025 18:49:19 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:49:19 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6088 as DESKTOP-G2OBL3D\student
+10/16/2025 18:49:19 [*]  Using the command line to execute the technique
+10/16/2025 18:49:19 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:49:19 [*]  Process successfully created. (PID): 5504
+10/16/2025 18:49:19 [*]  Simulation Finished
+10/16/2025 18:49:19 [*]  Playbook Finished
+10/16/2025 18:49:30 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:49:30 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2180 as DESKTOP-G2OBL3D\student
+10/16/2025 18:49:30 [*]  Using the command line to execute the technique
+10/16/2025 18:49:30 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:49:30 [*]  Process successfully created. (PID): 3156
+10/16/2025 18:49:30 [*]  Simulation Finished
+10/16/2025 18:49:30 [*]  Playbook Finished
+10/16/2025 18:49:36 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:49:36 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4916 as DESKTOP-G2OBL3D\student
+10/16/2025 18:49:36 [*]  Using the command line to execute the technique
+10/16/2025 18:49:36 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:49:36 [*]  Process successfully created. (PID): 7824
+10/16/2025 18:49:36 [*]  Simulation Finished
+10/16/2025 18:49:36 [*]  Playbook Finished
+10/16/2025 18:49:42 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:49:42 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5656 as DESKTOP-G2OBL3D\student
+10/16/2025 18:49:42 [*]  Using the command line to execute the technique
+10/16/2025 18:49:42 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:49:42 [*]  Process successfully created. (PID): 1684
+10/16/2025 18:49:42 [*]  Simulation Finished
+10/16/2025 18:49:42 [*]  Playbook Finished
+10/16/2025 18:50:35 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:50:35 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7540 as DESKTOP-G2OBL3D\student
+10/16/2025 18:50:35 [*]  Using the command line to execute the technique
+10/16/2025 18:50:35 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:50:35 [*]  Process successfully created. (PID): 7644
+10/16/2025 18:50:35 [*]  Simulation Finished
+10/16/2025 18:50:35 [*]  Playbook Finished
+10/16/2025 18:50:36 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:50:36 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5108 as DESKTOP-G2OBL3D\student
+10/16/2025 18:50:36 [*]  Using the command line to execute the technique
+10/16/2025 18:50:36 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:50:36 [*]  Process successfully created. (PID): 3008
+10/16/2025 18:50:36 [*]  Simulation Finished
+10/16/2025 18:50:36 [*]  Playbook Finished
+10/16/2025 18:50:37 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:50:37 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5168 as DESKTOP-G2OBL3D\student
+10/16/2025 18:50:37 [*]  Using the command line to execute the technique
+10/16/2025 18:50:37 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:50:37 [*]  Process successfully created. (PID): 7340
+10/16/2025 18:50:37 [*]  Simulation Finished
+10/16/2025 18:50:37 [*]  Playbook Finished
+10/16/2025 18:51:06 [*]  Playbook Finished
+10/16/2025 18:51:09 [*]  Playbook Finished
+10/16/2025 18:51:10 [*]  Playbook Finished
+10/16/2025 18:51:10 [*]  Playbook Finished
+10/16/2025 18:51:11 [*]  Playbook Finished
+10/16/2025 18:51:42 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:51:42 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:412 as DESKTOP-G2OBL3D\student
+10/16/2025 18:51:42 [*]  Using the command line to execute the technique
+10/16/2025 18:51:42 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:51:42 [*]  Process successfully created. (PID): 7336
+10/16/2025 18:51:42 [*]  Simulation Finished
+10/16/2025 18:51:42 [*]  Playbook Finished
+10/16/2025 18:51:43 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:51:43 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:1288 as DESKTOP-G2OBL3D\student
+10/16/2025 18:51:43 [*]  Using the command line to execute the technique
+10/16/2025 18:51:43 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:51:43 [*]  Process successfully created. (PID): 7124
+10/16/2025 18:51:43 [*]  Simulation Finished
+10/16/2025 18:51:43 [*]  Playbook Finished
+10/16/2025 18:51:44 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:51:44 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6768 as DESKTOP-G2OBL3D\student
+10/16/2025 18:51:44 [*]  Using the command line to execute the technique
+10/16/2025 18:51:44 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:51:44 [*]  Process successfully created. (PID): 2516
+10/16/2025 18:51:44 [*]  Simulation Finished
+10/16/2025 18:51:44 [*]  Playbook Finished
+10/16/2025 18:54:32 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:54:32 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2332 as DESKTOP-G2OBL3D\student
+10/16/2025 18:54:32 [*]  Using the command line to execute the technique
+10/16/2025 18:54:32 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:54:32 [*]  Process successfully created. (PID): 1760
+10/16/2025 18:54:32 [*]  Simulation Finished
+10/16/2025 18:54:32 [*]  Playbook Finished
+10/16/2025 18:55:53 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:55:53 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5208 as DESKTOP-G2OBL3D\student
+10/16/2025 18:55:53 [*]  Using the command line to execute the technique
+10/16/2025 18:55:53 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 18:55:53 [*]  Process successfully created. (PID): 5204
+10/16/2025 18:55:53 [*]  Simulation Finished
+10/16/2025 18:55:53 [*]  Playbook Finished
+10/16/2025 18:59:13 [*]  Playbook Finished
+10/16/2025 18:59:46 [*]  Starting T1059.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 18:59:46 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6868 as DESKTOP-G2OBL3D\student
+10/16/2025 18:59:46 [*]  Using the Win32 API call CreateProcess to execute: 'cmd.exe /C whoami'
+10/16/2025 18:59:46 [*]  Process successfully created. (PID): 4000
+10/16/2025 18:59:46 [*]  Simulation Finished
+10/16/2025 18:59:46 [*]  Playbook Finished
+10/16/2025 19:00:10 [*]  Starting T1059.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:00:10 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7860 as DESKTOP-G2OBL3D\student
+10/16/2025 19:00:10 [*]  Using the Win32 API call CreateProcess to execute: 'cmd.exe /C whoami'
+10/16/2025 19:00:10 [*]  Process successfully created. (PID): 6780
+10/16/2025 19:00:10 [*]  Simulation Finished
+10/16/2025 19:00:10 [*]  Playbook Finished
+10/16/2025 19:01:43 [*]  Starting T1059.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:01:43 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4132 as DESKTOP-G2OBL3D\student
+10/16/2025 19:01:43 [*]  Using the Win32 API call CreateProcess to execute: 'cmd.exe /C whoami'
+10/16/2025 19:01:43 [*]  Process successfully created. (PID): 2192
+10/16/2025 19:01:43 [*]  Simulation Finished
+10/16/2025 19:01:43 [*]  Playbook Finished
+10/16/2025 19:02:12 [*]  Starting T1059.005 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:02:12 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4920 as DESKTOP-G2OBL3D\student
+10/16/2025 19:02:12 [*]  Using the Win32 API call CreateProcess to execute: 'wscript.exe invoice0420.vbs'
+10/16/2025 19:02:12 [*]  Process successfully created. (PID): 6044
+10/16/2025 19:02:12 [*]  Simulation Finished
+10/16/2025 19:02:12 [*]  Playbook Finished
+10/16/2025 19:02:53 [*]  Starting T1059.007 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:02:53 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5864 as DESKTOP-G2OBL3D\student
+10/16/2025 19:02:53 [*]  Using the Win32 API call CreateProcess to execute: 'wscript.exe invoice0420.js'
+10/16/2025 19:02:53 [*]  Process successfully created. (PID): 864
+10/16/2025 19:02:53 [*]  Simulation Finished
+10/16/2025 19:02:53 [*]  Playbook Finished
+10/16/2025 19:03:14 [*]  Starting T1569.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:03:14 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2160 as DESKTOP-G2OBL3D\student
+10/16/2025 19:03:14 [*]  Using the Win32 API call CreateProcess to execute: 'net start UpdaterService'
+10/16/2025 19:03:14 [*]  Process successfully created. (PID): 4616
+10/16/2025 19:03:14 [*]  Using the Win32 API call CreateProcess to execute: 'sc start UpdaterService'
+10/16/2025 19:03:14 [*]  Process successfully created. (PID): 7764
+10/16/2025 19:03:14 [*]  Simulation Finished
+10/16/2025 19:03:14 [*]  Playbook Finished
+10/16/2025 19:03:40 [*]  Starting T1136.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:03:40 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:1656 as DESKTOP-G2OBL3D\student
+10/16/2025 19:03:40 [*]  Using the Win32 API NetUserAdd function to execute the technique
+10/16/2025 19:03:40 [*]  Successfully created local user haxor with NetUserAdd
+10/16/2025 19:03:40 [*]  Successfully removed user with NetUserDel
+10/16/2025 19:03:44 [*]  Simulation Finished
+10/16/2025 19:03:44 [*]  Playbook Finished
+10/16/2025 19:04:28 [*]  Starting T1547.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:04:28 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5588 as DESKTOP-G2OBL3D\student
+10/16/2025 19:04:28 [*]  Using the Microsoft.Win32 .NET namespace to execute the technique
+10/16/2025 19:04:28 [*]  Created Regkey: HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp - C:\\Windows\\Temp\\xyz123456.exe 
+10/16/2025 19:04:28 [*]  Deleted RegKey : HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp
+10/16/2025 19:04:28 [*]  Simulation Finished
+10/16/2025 19:04:28 [*]  Playbook Finished
+10/16/2025 19:04:59 [*]  Playbook Finished
+10/16/2025 19:05:18 [*]  Starting T1055.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:05:18 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7512 as DESKTOP-G2OBL3D\student
+10/16/2025 19:05:18 [*]  Process Notepad.exe with PID:5164 started for the injection
+10/16/2025 19:05:19 [*]  Calling OpenProcess on PID:5164
+10/16/2025 19:05:19 [*]  Calling VirtualAllocEx on PID:5164
+10/16/2025 19:05:19 [*]  Calling WriteProcessMemory on PID:5164
+10/16/2025 19:05:19 [*]  Calling CreateRemoteThread on PID:5164
+10/16/2025 19:05:19 [*]  Simulation Finished
+10/16/2025 19:05:19 [*]  Playbook Finished
+10/16/2025 19:05:53 [*]  Playbook Finished
+10/16/2025 19:05:56 [*]  Starting T1547.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:05:56 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5808 as DESKTOP-G2OBL3D\student
+10/16/2025 19:05:56 [*]  Using the Microsoft.Win32 .NET namespace to execute the technique
+10/16/2025 19:05:56 [*]  Created Regkey: HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp - C:\\Windows\\Temp\\xyz123456.exe 
+10/16/2025 19:05:56 [*]  Deleted RegKey : HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp
+10/16/2025 19:05:56 [*]  Simulation Finished
+10/16/2025 19:05:56 [*]  Playbook Finished
+10/16/2025 19:06:08 [*]  Starting T1546.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:06:08 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:1344 as DESKTOP-G2OBL3D\student
+10/16/2025 19:06:08 [*]  Using the System.Management .NEt namespace to execute the technique
+10/16/2025 19:06:09 [*]  EventFilter 'MaliciousWmiSubscription' created.
+10/16/2025 19:06:09 [*]  CommandLineEventConnsumer 'MaliciousWmiSubscription' created.
+10/16/2025 19:06:09 [*]  FilterToConsumerBinding created.
+10/16/2025 19:06:12 [*]  WMI Subscription Deleted
+10/16/2025 19:06:12 [*]  Simulation Finished
+10/16/2025 19:06:12 [*]  Playbook Finished
+10/16/2025 19:07:10 [*]  Starting T1016 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:07:10 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7292 as DESKTOP-G2OBL3D\student
+10/16/2025 19:07:10 [*]  Using the Win32 API call CreateProcess to execute: 'ipconfig /all'
+10/16/2025 19:07:10 [*]  Process successfully created. (PID): 5184
+10/16/2025 19:07:10 [*]  Simulation Finished
+10/16/2025 19:07:10 [*]  Playbook Finished
+10/16/2025 19:09:12 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:12 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:12 [*]  Using the command line to execute the technique
+10/16/2025 19:09:12 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 19:09:12 [*]  Process successfully created. (PID): 1460
+10/16/2025 19:09:12 [*]  Simulation Finished
+10/16/2025 19:09:15 [*]  Playbook Finished
+10/16/2025 19:09:15 [*]  Starting T1059.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:15 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:15 [*]  Using the Win32 API call CreateProcess to execute: 'cmd.exe /C whoami'
+10/16/2025 19:09:15 [*]  Process successfully created. (PID): 5756
+10/16/2025 19:09:15 [*]  Simulation Finished
+10/16/2025 19:09:18 [*]  Playbook Finished
+10/16/2025 19:09:18 [*]  Starting T1053.005 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:18 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:18 [*]  Using the command line to execute the technique
+10/16/2025 19:09:18 [*]  Using the Win32 API call CreateProcess to execute: 'SCHTASKS /CREATE /SC DAILY /TN BadScheduledTask /TR "C:\Windows\Temp\xyz12345.exe" /ST 13:00'
+10/16/2025 19:09:18 [*]  Process successfully created. (PID): 3156
+10/16/2025 19:09:18 [*]  The created Scheduled Task BadScheduledTask was not deleted as part of the simulation
+10/16/2025 19:09:18 [*]  Simulation Finished
+10/16/2025 19:09:21 [*]  Playbook Finished
+10/16/2025 19:09:21 [*]  Starting T1547.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:21 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:21 [*]  Using the Microsoft.Win32 .NET namespace to execute the technique
+10/16/2025 19:09:21 [*]  Created Regkey: HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp - C:\\Windows\\Temp\\xyz123456.exe 
+10/16/2025 19:09:21 [*]  The created RegKey : HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp was not deleted as part of the simulation
+10/16/2025 19:09:21 [*]  Simulation Finished
+10/16/2025 19:09:24 [*]  Playbook Finished
+10/16/2025 19:09:24 [*]  Starting T1543.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:24 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:24 [*]  Using the Win32 API CreateService function to execute the technique
+10/16/2025 19:09:24 [*]  Successfully created Service: UpdaterService ImagePath: C:\Windows\Temp\superlegit.exe using CreateService
+10/16/2025 19:09:24 [*]  The created Service: UpdaterService ImagePath: C:\Windows\Temp\superlegit.exe was not deleted as part of the simulation
+10/16/2025 19:09:24 [*]  Simulation Finished
+10/16/2025 19:09:27 [*]  Playbook Finished
+10/16/2025 19:09:27 [*]  Starting T1055.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:27 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:28 [*]  Process Notepad.exe with PID:3192 started for the injection
+10/16/2025 19:09:29 [*]  Calling OpenProcess on PID:3192
+10/16/2025 19:09:29 [*]  Calling VirtualAllocEx on PID:3192
+10/16/2025 19:09:29 [*]  Calling WriteProcessMemory on PID:3192
+10/16/2025 19:09:29 [*]  Calling CreateRemoteThread on PID:3192
+10/16/2025 19:09:29 [*]  Simulation Finished
+10/16/2025 19:09:32 [*]  Playbook Finished
+10/16/2025 19:09:32 [*]  Starting T1055.004 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:32 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:32 [*]  Process Notepad.exe with PID:1864 started for the injection
+10/16/2025 19:09:33 [*]  Calling OpenProcess on PID:1864
+10/16/2025 19:09:33 [*]  Calling VirtualAllocEx on PID:1864
+10/16/2025 19:09:33 [*]  Calling WriteProcessMemory on PID:1864
+10/16/2025 19:09:33 [*]  Calling QueueUserAPC on ThreadId:1468
+10/16/2025 19:09:33 [*]  Simulation Finished
+10/16/2025 19:09:36 [*]  Playbook Finished
+10/16/2025 19:09:36 [*]  Starting T1003.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:36 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:36 [*]  Identified lsass.exe with Process ID:808
+10/16/2025 19:09:36 [*]  Trying to obtain a process handle to lsass.exe (PID:808)
+10/16/2025 19:09:36 [*]  Exception: Access is denied
+10/16/2025 19:09:36 [*]  Simulation Failed
+10/16/2025 19:09:39 [*]  Playbook Finished
+10/16/2025 19:09:39 [*]  Starting T1087.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:39 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:39 [*]  Using the command line to execute the technique
+10/16/2025 19:09:39 [*]  Using the System.Diagnostics .NET namespace to execute 'net.exe user'
+10/16/2025 19:09:39 [*]  Process successfully created. (PID): 2692
+10/16/2025 19:09:39 [*]  User accounts for \\DESKTOP-G2OBL3D
+10/16/2025 19:09:39 [*]  -------------------------------------------------------------------------------
+10/16/2025 19:09:39 [*]  Administrator            DefaultAccount           Guest                    
+10/16/2025 19:09:39 [*]  student                  test                     WDAGUtilityAccount       
+10/16/2025 19:09:39 [*]  The command completed successfully.
+10/16/2025 19:09:39 [*]  Simulation Finished
+10/16/2025 19:09:42 [*]  Playbook Finished
+10/16/2025 19:09:42 [*]  Starting T1049 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:42 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:42 [*]  Using the Win32 API call CreateProcess to execute: 'netstat'
+10/16/2025 19:09:42 [*]  Process successfully created. (PID): 7256
+10/16/2025 19:09:42 [*]  Using the Win32 API call CreateProcess to execute: 'net use'
+10/16/2025 19:09:42 [*]  Process successfully created. (PID): 2192
+10/16/2025 19:09:42 [*]  Using the Win32 API call CreateProcess to execute: 'net session'
+10/16/2025 19:09:42 [*]  Process successfully created. (PID): 6428
+10/16/2025 19:09:42 [*]  Simulation Finished
+10/16/2025 19:09:45 [*]  Playbook Finished
+10/16/2025 19:09:45 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:09:45 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6844 as DESKTOP-G2OBL3D\student
+10/16/2025 19:09:45 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+10/16/2025 19:09:45 [*]  Process successfully created. (PID): 6132
+10/16/2025 19:09:45 [*]  Simulation Finished
+10/16/2025 19:09:45 [*]  Playbook Finished
+10/16/2025 19:16:16 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:16:16 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2912 as DESKTOP-G2OBL3D\student
+10/16/2025 19:16:16 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+10/16/2025 19:16:16 [*]  Process successfully created. (PID): 7428
+10/16/2025 19:16:16 [*]  Simulation Finished
+10/16/2025 19:16:16 [*]  Playbook Finished
+10/16/2025 19:16:54 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:16:54 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2652 as DESKTOP-G2OBL3D\student
+10/16/2025 19:16:54 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+10/16/2025 19:16:54 [*]  Process successfully created. (PID): 2408
+10/16/2025 19:16:54 [*]  Simulation Finished
+10/16/2025 19:16:54 [*]  Playbook Finished
+10/16/2025 19:18:00 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:18:00 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7404 as DESKTOP-G2OBL3D\student
+10/16/2025 19:18:00 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+10/16/2025 19:18:00 [*]  Process successfully created. (PID): 8088
+10/16/2025 19:18:00 [*]  Simulation Finished
+10/16/2025 19:18:00 [*]  Playbook Finished
+10/16/2025 19:20:04 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:20:04 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2168 as DESKTOP-G2OBL3D\student
+10/16/2025 19:20:04 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+10/16/2025 19:20:04 [*]  Process successfully created. (PID): 6408
+10/16/2025 19:20:04 [*]  Simulation Finished
+10/16/2025 19:20:04 [*]  Playbook Finished
+10/16/2025 19:21:22 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:21:22 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7436 as DESKTOP-G2OBL3D\student
+10/16/2025 19:21:22 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+10/16/2025 19:21:22 [*]  Process successfully created. (PID): 3028
+10/16/2025 19:21:22 [*]  Simulation Finished
+10/16/2025 19:21:22 [*]  Playbook Finished
+10/16/2025 19:22:44 [*]  Starting T1049 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:22:44 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7756 as DESKTOP-G2OBL3D\student
+10/16/2025 19:22:44 [*]  Using the Win32 API call CreateProcess to execute: 'netstat'
+10/16/2025 19:22:44 [*]  Process successfully created. (PID): 6044
+10/16/2025 19:22:44 [*]  Using the Win32 API call CreateProcess to execute: 'net use'
+10/16/2025 19:22:44 [*]  Process successfully created. (PID): 8088
+10/16/2025 19:22:44 [*]  Using the Win32 API call CreateProcess to execute: 'net session'
+10/16/2025 19:22:44 [*]  Process successfully created. (PID): 2448
+10/16/2025 19:22:44 [*]  Simulation Finished
+10/16/2025 19:22:44 [*]  Playbook Finished
+10/16/2025 19:26:06 [*]  Starting T1049 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:26:06 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4892 as DESKTOP-G2OBL3D\student
+10/16/2025 19:26:06 [*]  Using the Win32 API call CreateProcess to execute: 'netstat'
+10/16/2025 19:26:06 [*]  Process successfully created. (PID): 5636
+10/16/2025 19:26:06 [*]  Using the Win32 API call CreateProcess to execute: 'net use'
+10/16/2025 19:26:06 [*]  Process successfully created. (PID): 8172
+10/16/2025 19:26:06 [*]  Using the Win32 API call CreateProcess to execute: 'net session'
+10/16/2025 19:26:06 [*]  Process successfully created. (PID): 1420
+10/16/2025 19:26:06 [*]  Simulation Finished
+10/16/2025 19:26:06 [*]  Playbook Finished
+10/16/2025 19:26:43 [*]  Playbook Finished
+10/16/2025 19:26:47 [*]  Starting T1087.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:26:47 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:3112 as DESKTOP-G2OBL3D\student
+10/16/2025 19:26:47 [*]  Using the command line to execute the technique
+10/16/2025 19:26:47 [*]  Using the System.Diagnostics .NET namespace to execute 'net.exe user'
+10/16/2025 19:26:47 [*]  Process successfully created. (PID): 2408
+10/16/2025 19:26:47 [*]  User accounts for \\DESKTOP-G2OBL3D
+10/16/2025 19:26:47 [*]  -------------------------------------------------------------------------------
+10/16/2025 19:26:47 [*]  Administrator            DefaultAccount           Guest                    
+10/16/2025 19:26:47 [*]  student                  test                     WDAGUtilityAccount       
+10/16/2025 19:26:47 [*]  The command completed successfully.
+10/16/2025 19:26:47 [*]  Simulation Finished
+10/16/2025 19:26:47 [*]  Playbook Finished
+10/16/2025 19:27:11 [*]  Starting T1087.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:27:11 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:2848 as DESKTOP-G2OBL3D\student
+10/16/2025 19:27:11 [*]  Using the command line to execute the technique
+10/16/2025 19:27:11 [*]  Using the System.Diagnostics .NET namespace to execute 'net.exe user'
+10/16/2025 19:27:11 [*]  Process successfully created. (PID): 4812
+10/16/2025 19:27:11 [*]  User accounts for \\DESKTOP-G2OBL3D
+10/16/2025 19:27:11 [*]  -------------------------------------------------------------------------------
+10/16/2025 19:27:11 [*]  Administrator            DefaultAccount           Guest                    
+10/16/2025 19:27:11 [*]  student                  test                     WDAGUtilityAccount       
+10/16/2025 19:27:11 [*]  The command completed successfully.
+10/16/2025 19:27:11 [*]  Simulation Finished
+10/16/2025 19:27:11 [*]  Playbook Finished
+10/16/2025 19:30:33 [*]  Starting T1003.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:30:33 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:968 as DESKTOP-G2OBL3D\student
+10/16/2025 19:30:33 [*]  Identified lsass.exe with Process ID:808
+10/16/2025 19:30:33 [*]  Trying to obtain a process handle to lsass.exe (PID:808)
+10/16/2025 19:30:33 [*]  Exception: Access is denied
+10/16/2025 19:30:33 [*]  Simulation Failed
+10/16/2025 19:30:33 [*]  Playbook Finished
+10/16/2025 19:33:54 [*]  Starting T1055.004 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:33:54 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4300 as DESKTOP-G2OBL3D\student
+10/16/2025 19:33:54 [*]  Process Notepad.exe with PID:6744 started for the injection
+10/16/2025 19:33:55 [*]  Calling OpenProcess on PID:6744
+10/16/2025 19:33:55 [*]  Calling VirtualAllocEx on PID:6744
+10/16/2025 19:33:55 [*]  Calling WriteProcessMemory on PID:6744
+10/16/2025 19:33:55 [*]  Calling QueueUserAPC on ThreadId:720
+10/16/2025 19:33:55 [*]  Simulation Finished
+10/16/2025 19:33:55 [*]  Playbook Finished
+10/16/2025 19:34:07 [*]  Starting T1055.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:34:07 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4940 as DESKTOP-G2OBL3D\student
+10/16/2025 19:34:07 [*]  Process Notepad.exe with PID:2824 started for the injection
+10/16/2025 19:34:08 [*]  Calling OpenProcess on PID:2824
+10/16/2025 19:34:08 [*]  Calling VirtualAllocEx on PID:2824
+10/16/2025 19:34:08 [*]  Calling WriteProcessMemory on PID:2824
+10/16/2025 19:34:08 [*]  Calling SuspendThread on threadId: 2884
+10/16/2025 19:34:08 [*]  Current EIP: 140705814935460
+10/16/2025 19:34:08 [*]  Calling SetThreadContext on threadId:2884
+10/16/2025 19:34:08 [*]  New EIP : 2224834805760
+10/16/2025 19:34:08 [*]  Calling ResumeThread on threadId:2884
+10/16/2025 19:34:08 [*]  Simulation Finished
+10/16/2025 19:34:08 [*]  Playbook Finished
+10/16/2025 19:34:14 [*]  Starting T1055.002 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:34:14 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:1732 as DESKTOP-G2OBL3D\student
+10/16/2025 19:34:14 [*]  Process Notepad.exe with PID:3044 started for the injection
+10/16/2025 19:34:15 [*]  Calling OpenProcess on PID:3044
+10/16/2025 19:34:16 [*]  Calling VirtualAllocEx on PID:3044
+10/16/2025 19:34:16 [*]  Calling WriteProcessMemory on PID:3044
+10/16/2025 19:34:16 [*]  Calling CreateRemoteThread on PID:3044
+10/16/2025 19:34:16 [*]  Simulation Finished
+10/16/2025 19:34:16 [*]  Playbook Finished
+10/16/2025 19:34:29 [*]  Playbook Finished
+10/16/2025 19:35:40 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:35:40 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:3660 as DESKTOP-G2OBL3D\student
+10/16/2025 19:35:40 [*]  Using the command line to execute the technique
+10/16/2025 19:35:40 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+10/16/2025 19:35:40 [*]  Process successfully created. (PID): 688
+10/16/2025 19:35:40 [*]  Simulation Finished
+10/16/2025 19:35:40 [*]  Playbook Finished
+10/16/2025 19:36:24 [*]  Starting T1059.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:36:24 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:7216 as DESKTOP-G2OBL3D\student
+10/16/2025 19:36:24 [*]  Using the Win32 API call CreateProcess to execute: 'cmd.exe /C whoami'
+10/16/2025 19:36:25 [*]  Process successfully created. (PID): 2796
+10/16/2025 19:36:25 [*]  Simulation Finished
+10/16/2025 19:36:25 [*]  Playbook Finished
+10/16/2025 19:37:02 [*]  Playbook Finished
+10/16/2025 19:37:08 [*]  Playbook Finished
+10/16/2025 19:37:56 [*]  Starting T1053.005 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:37:56 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:1824 as DESKTOP-G2OBL3D\student
+10/16/2025 19:37:56 [*]  Using the command line to execute the technique
+10/16/2025 19:37:56 [*]  Using the Win32 API call CreateProcess to execute: 'SCHTASKS /CREATE /SC DAILY /TN BadScheduledTask /TR "C:\Windows\Temp\xyz12345.exe" /ST 13:00'
+10/16/2025 19:37:56 [*]  Process successfully created. (PID): 7500
+10/16/2025 19:37:56 [*]  The created Scheduled Task BadScheduledTask was not deleted as part of the simulation
+10/16/2025 19:37:56 [*]  Simulation Finished
+10/16/2025 19:37:56 [*]  Playbook Finished
+10/16/2025 19:38:21 [*]  Starting T1053.005 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:38:21 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5856 as DESKTOP-G2OBL3D\student
+10/16/2025 19:38:21 [*]  Using the command line to execute the technique
+10/16/2025 19:38:21 [*]  Using the Win32 API call CreateProcess to execute: 'SCHTASKS /CREATE /SC DAILY /TN BadScheduledTask /TR "C:\Windows\Temp\xyz12345.exe" /ST 13:00'
+10/16/2025 19:38:21 [*]  Process successfully created. (PID): 832
+10/16/2025 19:38:21 [*]  The created Scheduled Task BadScheduledTask was not deleted as part of the simulation
+10/16/2025 19:38:21 [*]  Simulation Finished
+10/16/2025 19:38:21 [*]  Playbook Finished
+10/16/2025 19:38:40 [*]  Starting T1053.005 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:38:40 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:4780 as DESKTOP-G2OBL3D\student
+10/16/2025 19:38:40 [*]  Using the command line to execute the technique
+10/16/2025 19:38:40 [*]  Using the Win32 API call CreateProcess to execute: 'SCHTASKS /CREATE /SC DAILY /TN BadScheduledTask /TR "C:\Windows\Temp\xyz12345.exe" /ST 13:00'
+10/16/2025 19:38:40 [*]  Process successfully created. (PID): 4372
+10/16/2025 19:38:40 [*]  The created Scheduled Task BadScheduledTask was not deleted as part of the simulation
+10/16/2025 19:38:40 [*]  Simulation Finished
+10/16/2025 19:38:40 [*]  Playbook Finished
+10/16/2025 19:39:29 [*]  Starting T1547.001 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:39:29 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:3380 as DESKTOP-G2OBL3D\student
+10/16/2025 19:39:29 [*]  Using the Microsoft.Win32 .NET namespace to execute the technique
+10/16/2025 19:39:29 [*]  Created Regkey: HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp - C:\\Windows\\Temp\\xyz123456.exe 
+10/16/2025 19:39:29 [*]  The created RegKey : HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\BadApp was not deleted as part of the simulation
+10/16/2025 19:39:29 [*]  Simulation Finished
+10/16/2025 19:39:29 [*]  Playbook Finished
+10/16/2025 19:39:57 [*]  Starting T1543.003 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:39:57 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:3124 as DESKTOP-G2OBL3D\student
+10/16/2025 19:39:57 [*]  Using the Win32 API CreateService function to execute the technique
+10/16/2025 19:39:57 [*]  Could not create Service. Error Code: 1073
+10/16/2025 19:39:57 [*]  Simulation Finished
+10/16/2025 19:39:57 [*]  Playbook Finished
+10/16/2025 19:40:33 [*]  Starting T1049 Simulation on DESKTOP-G2OBL3D
+10/16/2025 19:40:33 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:8068 as DESKTOP-G2OBL3D\student
+10/16/2025 19:40:33 [*]  Using the Win32 API call CreateProcess to execute: 'netstat'
+10/16/2025 19:40:33 [*]  Process successfully created. (PID): 3068
+10/16/2025 19:40:33 [*]  Using the Win32 API call CreateProcess to execute: 'net use'
+10/16/2025 19:40:33 [*]  Process successfully created. (PID): 3668
+10/16/2025 19:40:33 [*]  Using the Win32 API call CreateProcess to execute: 'net session'
+10/16/2025 19:40:33 [*]  Process successfully created. (PID): 7644
+10/16/2025 19:40:33 [*]  Simulation Finished
+10/16/2025 19:40:33 [*]  Playbook Finished
+12/23/2025 15:03:15 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:03:15 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:8440 as DESKTOP-G2OBL3D\student
+12/23/2025 15:03:15 [*]  Using the command line to execute the technique
+12/23/2025 15:03:15 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+12/23/2025 15:03:15 [*]  Process successfully created. (PID): 3268
+12/23/2025 15:03:15 [*]  Simulation Finished
+12/23/2025 15:03:15 [*]  Playbook Finished
+12/23/2025 15:03:38 [*]  Starting T1059.001 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:03:38 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:6532 as DESKTOP-G2OBL3D\student
+12/23/2025 15:03:38 [*]  Using the command line to execute the technique
+12/23/2025 15:03:38 [*]  Using the Win32 API call CreateProcess to execute: 'powershell.exe -enc UwB0AGEAcgB0AC0AUwBsAGUAZQBwACAALQBzACAAMgAwAA=='
+12/23/2025 15:03:38 [*]  Process successfully created. (PID): 7456
+12/23/2025 15:03:38 [*]  Simulation Finished
+12/23/2025 15:03:38 [*]  Playbook Finished
+12/23/2025 15:06:22 [*]  Starting T1059.003 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:06:22 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:9684 as DESKTOP-G2OBL3D\student
+12/23/2025 15:06:22 [*]  Using the Win32 API call CreateProcess to execute: 'cmd.exe /C whoami'
+12/23/2025 15:06:22 [*]  Process successfully created. (PID): 9716
+12/23/2025 15:06:22 [*]  Simulation Finished
+12/23/2025 15:06:22 [*]  Playbook Finished
+12/23/2025 15:08:43 [*]  Starting T1140 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:08:43 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:10172 as DESKTOP-G2OBL3D\student
+12/23/2025 15:08:43 [*]  Using the Win32 API call CreateProcess to execute: 'certutil -decode encodedb64.txt decoded.exe'
+12/23/2025 15:08:43 [*]  Process successfully created. (PID): 10208
+12/23/2025 15:08:43 [*]  Simulation Finished
+12/23/2025 15:08:43 [*]  Playbook Finished
+12/23/2025 15:10:37 [*]  Starting T1049 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:10:37 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:5248 as DESKTOP-G2OBL3D\student
+12/23/2025 15:10:37 [*]  Using the Win32 API call CreateProcess to execute: 'netstat'
+12/23/2025 15:10:37 [*]  Process successfully created. (PID): 10020
+12/23/2025 15:10:37 [*]  Using the Win32 API call CreateProcess to execute: 'net use'
+12/23/2025 15:10:37 [*]  Process successfully created. (PID): 2612
+12/23/2025 15:10:37 [*]  Using the Win32 API call CreateProcess to execute: 'net session'
+12/23/2025 15:10:37 [*]  Process successfully created. (PID): 7836
+12/23/2025 15:10:37 [*]  Simulation Finished
+12/23/2025 15:10:37 [*]  Playbook Finished
+12/23/2025 15:13:18 [*]  Starting T1087.001 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:13:18 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:3108 as DESKTOP-G2OBL3D\student
+12/23/2025 15:13:18 [*]  Using the command line to execute the technique
+12/23/2025 15:13:18 [*]  Using the System.Diagnostics .NET namespace to execute 'net.exe user'
+12/23/2025 15:13:18 [*]  Process successfully created. (PID): 9680
+12/23/2025 15:13:18 [*]  User accounts for \\DESKTOP-G2OBL3D
+12/23/2025 15:13:18 [*]  -------------------------------------------------------------------------------
+12/23/2025 15:13:18 [*]  Administrator            DefaultAccount           Guest                    
+12/23/2025 15:13:18 [*]  student                  test                     WDAGUtilityAccount       
+12/23/2025 15:13:18 [*]  The command completed successfully.
+12/23/2025 15:13:18 [*]  Simulation Finished
+12/23/2025 15:13:18 [*]  Playbook Finished
+12/23/2025 15:15:01 [*]  Starting T1087.001 Simulation on DESKTOP-G2OBL3D
+12/23/2025 15:15:01 [*]  Simulator running from C:\Tools\PurpleSharp\PurpleSharp_x64.exe with PID:10228 as DESKTOP-G2OBL3D\student
+12/23/2025 15:15:01 [*]  Using the command line to execute the technique
+12/23/2025 15:15:01 [*]  Using the System.Diagnostics .NET namespace to execute 'net.exe user'
+12/23/2025 15:15:01 [*]  Process successfully created. (PID): 1464
+12/23/2025 15:15:01 [*]  User accounts for \\DESKTOP-G2OBL3D
+12/23/2025 15:15:01 [*]  -------------------------------------------------------------------------------
+12/23/2025 15:15:01 [*]  Administrator            DefaultAccount           Guest                    
+12/23/2025 15:15:01 [*]  student                  test                     WDAGUtilityAccount       
+12/23/2025 15:15:01 [*]  The command completed successfully.
+12/23/2025 15:15:01 [*]  Simulation Finished
+12/23/2025 15:15:01 [*]  Playbook Finished
