@@ -1,0 +1,1 @@
+{"files":[{"path":"/var/log/dpkg.log","hash":"a8846b449c5b74506af8766106141a618895541a","offset":"1122414"},{"path":"/var/ossec/logs/active-responses.log","hash":"da39a3ee5e6b4b0d3255bfef95601890afd80709","offset":"0"}],"journald":{"timestamp":"1757944784366205"}}

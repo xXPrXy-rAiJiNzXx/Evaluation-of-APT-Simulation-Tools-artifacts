@@ -1,0 +1,68 @@
+2025/09/15 15:48:02 INFO: Checking RBAC database integrity...
+2025/09/15 15:48:02 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2025/09/15 15:48:02 INFO: RBAC database integrity check finished successfully
+2025/09/15 15:48:04 INFO: Listening on ['0.0.0.0', '::']:55000.
+2025/09/15 15:48:04 INFO: Getting installation UID...
+2025/09/15 15:48:04 INFO: Getting updates information...
+2025/09/15 15:48:20 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.295s: 200
+2025/09/15 15:48:20 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.025s: 200
+2025/09/15 15:48:20 INFO: wazuh-wui 127.0.0.1 "GET /security/users/me" with parameters {} and body {} done in 0.148s: 200
+2025/09/15 15:48:20 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.009s: 200
+2025/09/15 15:48:21 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.007s: 200
+2025/09/15 15:48:21 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "1", "q": "id!=000"} and body {} done in 0.084s: 200
+2025/09/15 15:48:21 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"offset": "0", "limit": "500", "q": "id!=000"} and body {} done in 0.008s: 200
+2025/09/15 15:50:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.029s: 200
+2025/09/15 15:50:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.021s: 200
+2025/09/15 15:53:33 INFO: Shutdown wazuh-apid server.
+2025/09/15 15:53:42 INFO: Checking RBAC database integrity...
+2025/09/15 15:53:42 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2025/09/15 15:53:42 INFO: RBAC database integrity check finished successfully
+2025/09/15 15:53:44 INFO: Listening on ['0.0.0.0', '::']:55000.
+2025/09/15 15:53:44 INFO: Getting installation UID...
+2025/09/15 15:53:44 INFO: Getting updates information...
+2025/09/15 15:53:54 ERROR: Some Wazuh daemons are not ready yet in node "node01" (wazuh-modulesd->stopped, wazuh-analysisd->stopped, wazuh-execd->stopped, wazuh-remoted->stopped)
+2025/09/15 15:53:54 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.005s: 500
+2025/09/15 15:53:55 ERROR: Some Wazuh daemons are not ready yet in node "node01" (wazuh-modulesd->stopped, wazuh-analysisd->stopped, wazuh-execd->stopped, wazuh-remoted->stopped)
+2025/09/15 15:53:55 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.002s: 500
+2025/09/15 15:53:56 INFO: Shutdown wazuh-apid server.
+2025/09/15 15:53:58 INFO: Checking RBAC database integrity...
+2025/09/15 15:53:58 INFO: /var/ossec/api/configuration/security/rbac.db file was detected
+2025/09/15 15:53:58 INFO: RBAC database integrity check finished successfully
+2025/09/15 15:54:00 INFO: Listening on ['0.0.0.0', '::']:55000.
+2025/09/15 15:54:00 INFO: Getting installation UID...
+2025/09/15 15:54:00 INFO: Getting updates information...
+2025/09/15 15:54:49 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.761s: 200
+2025/09/15 15:54:49 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.575s: 200
+2025/09/15 15:54:49 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.575s: 200
+2025/09/15 15:54:49 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.575s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /" with parameters {} and body {} done in 1.213s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /manager/info" with parameters {} and body {} done in 1.216s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /manager/info" with parameters {} and body {} done in 1.216s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /manager/info" with parameters {} and body {} done in 1.216s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.033s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.034s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.035s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.101s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /security/users/me" with parameters {} and body {} done in 0.122s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /manager/version/check" with parameters {"force_query": "false"} and body {} done in 0.124s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /security/users/me" with parameters {} and body {} done in 0.161s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /security/users/me" with parameters {} and body {} done in 0.197s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.072s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.035s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.011s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.129s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /manager/info" with parameters {} and body {} done in 0.011s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /agents" with parameters {"agents_list": "000"} and body {} done in 0.018s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /security/users/me" with parameters {} and body {} done in 0.043s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /cluster/status" with parameters {} and body {} done in 0.021s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "POST /security/user/authenticate" with parameters {} and body {} done in 0.107s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /security/users/me/policies" with parameters {} and body {"idHost": "default"} done in 0.004s: 200
+2025/09/15 15:54:51 INFO: wazuh-wui 127.0.0.1 "GET /" with parameters {} and body {} done in 0.004s: 200
+2025/09/15 15:54:52 INFO: wazuh-wui 127.0.0.1 "GET /agents/summary/status" with parameters {} and body {} done in 0.008s: 200
+2025/09/15 15:55:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/remoted" with parameters {} and body {} done in 0.016s: 200
+2025/09/15 15:55:00 INFO: wazuh-wui 127.0.0.1 "GET /manager/stats/analysisd" with parameters {} and body {} done in 0.008s: 200
+2025/09/15 15:56:11 INFO: wazuh 127.0.0.1 "GET /security/user/authenticate" with parameters {} and body {} done in 0.067s: 401
+2025/09/15 15:56:55 INFO: wazuh 127.0.0.1 "GET /security/user/authenticate" with parameters {} and body {} done in 0.063s: 401
+2025/09/15 15:57:01 INFO: wazuh 127.0.0.1 "GET /security/user/authenticate" with parameters {} and body {} done in 0.061s: 401
+2025/09/15 15:57:04 INFO: wazuh 127.0.0.1 "GET /security/user/authenticate" with parameters {} and body {} done in 0.067s: 401
+2025/09/15 15:59:49 INFO: Shutdown wazuh-apid server.

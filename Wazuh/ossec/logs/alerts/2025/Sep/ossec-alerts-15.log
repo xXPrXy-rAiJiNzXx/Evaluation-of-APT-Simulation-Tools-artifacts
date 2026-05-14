@@ -1,0 +1,169 @@
+** Alert 1757944100.0: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:48:20 student-virtual-machine->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1757944103.259: - local,systemd,gpg13_4.3,gdpr_IV_35.7.d,
+2025 Sep 15 15:48:23 student-virtual-machine->journald
+Rule: 40704 (level 5) -> 'Systemd: Service exited due to a failure.'
+Sep 15 13:48:22 student-virtual-machine systemd[1062]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+
+** Alert 1757944159.587: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:49:19 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:49:17 student-virtual-machine pkexec[5669]: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944370.1047: - pam,syslog,authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,gpg13_7.8,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:52:50 student-virtual-machine->journald
+Rule: 5503 (level 5) -> 'PAM: User login failed.'
+User: student
+Sep 15 13:52:48 student-virtual-machine sudo[5734]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=student rhost=  user=student
+uid: 1000
+euid: 0
+tty: /dev/pts/0
+
+** Alert 1757944382.1594: - syslog,sudo,pci_dss_10.2.4,pci_dss_10.2.5,gpg13_7.8,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:53:02 student-virtual-machine->journald
+Rule: 5404 (level 10) -> 'Three failed attempts to run sudo'
+User: root
+Sep 15 13:53:00 student-virtual-machine sudo[5734]:  student : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/systemctl restart wazuh-manager
+tty: pts/0
+pwd: /home/student
+command: /usr/bin/systemctl restart wazuh-manager
+
+** Alert 1757944410.2190: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:53:30 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: student
+Sep 15 13:53:29 student-virtual-machine systemd[2185]: pam_unix(systemd-user:session): session closed for user student
+
+** Alert 1757944450.2601: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:54:10 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Sep 15 13:54:09 student-virtual-machine sudo[3730]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1757944455.2995: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:54:15 student-virtual-machine->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1757944492.3257: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:54:52 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:54:52 student-virtual-machine pkexec[7794]: pam_unix(polkit-1:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944596.3718: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:56:36 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:56:36 student-virtual-machine sudo[8733]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944596.4173: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:56:36 student-virtual-machine->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Sep 15 13:56:36 student-virtual-machine sudo[8733]:  student : TTY=pts/0 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/tail -f /var/ossec/logs/api.log
+tty: pts/0
+pwd: /home/student
+command: /usr/bin/tail -f /var/ossec/logs/api.log
+
+** Alert 1757944622.4749: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:02 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Sep 15 13:57:01 student-virtual-machine sudo[8745]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1757944622.5143: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:02 student-virtual-machine->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Sep 15 13:57:01 student-virtual-machine sudo[8745]:  student : TTY=pts/2 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/curl -k -u wazuh:wazuh https://127.0.0.1:55000/security/user/authenticate
+tty: pts/2
+pwd: /home/student
+command: /usr/bin/curl -k -u wazuh:wazuh https://127.0.0.1:55000/security/user/authenticate
+
+** Alert 1757944622.5803: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:02 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:57:01 student-virtual-machine sudo[8745]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944624.6258: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:04 student-virtual-machine->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Sep 15 13:57:04 student-virtual-machine sudo[8750]:  student : TTY=pts/2 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/curl -k -u wazuh:wazuh https://127.0.0.1:55000/security/user/authenticate
+tty: pts/2
+pwd: /home/student
+command: /usr/bin/curl -k -u wazuh:wazuh https://127.0.0.1:55000/security/user/authenticate
+
+** Alert 1757944624.6918: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:04 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Sep 15 13:57:04 student-virtual-machine sudo[8750]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1757944624.7312: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:04 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:57:04 student-virtual-machine sudo[8750]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944674.7767: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:54 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Sep 15 13:57:53 student-virtual-machine sudo[8764]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1757944674.8161: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:54 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:57:53 student-virtual-machine sudo[8764]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944674.8616: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:57:54 student-virtual-machine->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Sep 15 13:57:53 student-virtual-machine sudo[8764]:  student : TTY=pts/2 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/find /var/ossec -name api.yaml
+tty: pts/2
+pwd: /home/student
+command: /usr/bin/find /var/ossec -name api.yaml
+
+** Alert 1757944690.9190: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:58:10 student-virtual-machine->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root(uid=0)
+Sep 15 13:58:09 student-virtual-machine sudo[8771]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+uid: 1000
+
+** Alert 1757944690.9645: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:58:10 student-virtual-machine->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Sep 15 13:58:09 student-virtual-machine sudo[8771]:  student : TTY=pts/2 ; PWD=/home/student ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/api/configuration/api.yaml
+tty: pts/2
+pwd: /home/student
+command: /usr/bin/nano /var/ossec/api/configuration/api.yaml
+
+** Alert 1757944762.10243: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:59:22 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Sep 15 13:59:21 student-virtual-machine sudo[8733]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1757944780.10638: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2025 Sep 15 15:59:40 student-virtual-machine->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Sep 15 13:59:38 student-virtual-machine sudo[8771]: pam_unix(sudo:session): session closed for user root
+

@@ -1,0 +1,1153 @@
+2025/09/14 17:24:47 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 17:24:47 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 17:24:48 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/14 17:24:48 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/14 17:24:48 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/14 17:24:48 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/14 17:24:48 wazuh-authd: INFO: Started (pid: 121425).
+2025/09/14 17:24:48 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/14 17:24:48 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/14 17:24:49 wazuh-db: INFO: Started (pid: 121451).
+2025/09/14 17:24:49 wazuh-db: INFO: Created Global database backup "backup/db/global.db-backup-2025-09-14-17:24:49.gz"
+2025/09/14 17:24:50 wazuh-execd: INFO: Started (pid: 121476).
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: Started (pid: 121496).
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/14 17:24:50 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/14 17:24:50 rootcheck: INFO: Starting rootcheck scan.
+2025/09/14 17:24:50 wazuh-remoted: INFO: Started (pid: 121509). Listening on port 1514/TCP (secure).
+2025/09/14 17:24:50 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 17:24:51 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/14 17:24:51 wazuh-analysisd: INFO: Started (pid: 121487).
+2025/09/14 17:24:51 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/14 17:24:51 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/14 17:24:51 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/14 17:24:51 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/14 17:24:51 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/14 17:24:51 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/14 17:24:51 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/14 17:24:51 wazuh-logcollector: INFO: Started (pid: 121599).
+2025/09/14 17:24:52 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/14 17:24:52 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/14 17:24:52 wazuh-monitord: INFO: Started (pid: 121655).
+2025/09/14 17:24:52 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 17:24:52 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 17:24:52 wazuh-modulesd: INFO: Started (pid: 121664).
+2025/09/14 17:24:52 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/14 17:24:52 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/14 17:24:52 sca: INFO: Module started.
+2025/09/14 17:24:52 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/14 17:24:52 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:24:52 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/14 17:24:52 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/14 17:24:52 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/14 17:24:52 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/14 17:24:52 wazuh-modulesd:database: INFO: Module started.
+2025/09/14 17:24:52 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/14 17:24:52 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/14 17:24:52 wazuh-modulesd:download: INFO: Module started.
+2025/09/14 17:24:52 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/14 17:24:52 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/14 17:24:52 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:24:52 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-vulnerabilities-student-virtual-machine', retrying until the connection is successful.
+2025/09/14 17:24:52 wazuh-modulesd:vulnerability-scanner: INFO: Starting database file decompression.
+2025/09/14 17:24:52 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/14 17:24:53 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/14 17:24:56 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:24:56 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/14 17:25:22 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:25:23 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:25:23 wazuh-authd: INFO: Agent key generated for 'DESKTOP-G2OBL3D' (requested by any)
+2025/09/14 17:25:30 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2025/09/14 17:25:31 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 17:25:31 rootcheck: INFO: Ending rootcheck scan.
+2025/09/14 17:26:10 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/14 17:26:46 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:26:46 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:26:46 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:26:53 wazuh-modulesd:vulnerability-scanner: INFO: Database decompression finished.
+2025/09/14 17:26:54 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/14 17:27:57 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:27:57 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:27:57 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:28:31 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/14 17:28:31 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/14 17:28:31 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/14 17:28:31 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/14 17:28:31 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/14 17:28:31 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/14 17:28:31 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/14 17:28:31 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:31 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:31 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:32 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/14 17:28:32 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:32 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:33 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/14 17:28:33 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:33 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:34 wazuh-db: INFO: Graceful process shutdown.
+2025/09/14 17:28:34 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:28:35 wazuh-authd: INFO: Exiting...
+2025/09/14 17:28:36 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 17:28:36 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 17:28:37 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/14 17:28:37 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/14 17:28:37 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/14 17:28:37 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/14 17:28:37 wazuh-authd: INFO: Started (pid: 125750).
+2025/09/14 17:28:37 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/14 17:28:37 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/14 17:28:38 wazuh-db: INFO: Started (pid: 125766).
+2025/09/14 17:28:39 wazuh-execd: INFO: Started (pid: 125798).
+2025/09/14 17:28:41 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/14 17:28:41 wazuh-analysisd: INFO: Started (pid: 125812).
+2025/09/14 17:28:41 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/14 17:28:41 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: Started (pid: 125873).
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/14 17:28:42 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/14 17:28:42 rootcheck: INFO: Starting rootcheck scan.
+2025/09/14 17:28:43 wazuh-remoted: INFO: Started (pid: 125890). Listening on port 1514/TCP (secure).
+2025/09/14 17:28:43 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 17:28:43 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/14 17:28:43 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/14 17:28:44 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/14 17:28:44 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/14 17:28:44 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/14 17:28:44 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/14 17:28:44 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/14 17:28:44 wazuh-logcollector: INFO: Started (pid: 125941).
+2025/09/14 17:28:45 wazuh-monitord: INFO: Started (pid: 125992).
+2025/09/14 17:28:46 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/14 17:28:46 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 17:28:46 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 17:28:46 wazuh-modulesd: INFO: Started (pid: 126045).
+2025/09/14 17:28:46 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/14 17:28:46 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/14 17:28:46 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/14 17:28:46 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/14 17:28:46 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/14 17:28:46 sca: INFO: Module started.
+2025/09/14 17:28:46 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:28:46 wazuh-modulesd:download: INFO: Module started.
+2025/09/14 17:28:46 wazuh-modulesd:database: INFO: Module started.
+2025/09/14 17:28:46 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/14 17:28:46 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/14 17:28:46 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/14 17:28:46 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/14 17:28:46 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:28:46 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/14 17:28:46 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/14 17:28:46 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/14 17:28:46 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-vulnerabilities-student-virtual-machine', retrying until the connection is successful.
+2025/09/14 17:28:46 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/14 17:28:47 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:28:47 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:28:47 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:28:50 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:28:50 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/14 17:29:23 rootcheck: INFO: Ending rootcheck scan.
+2025/09/14 17:29:37 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:29:37 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:29:37 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:29:48 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/14 17:30:28 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:30:28 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:30:28 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:31:18 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:31:18 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:31:18 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:32:08 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:32:08 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:32:08 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:32:58 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:32:58 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:32:58 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:33:48 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:33:48 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:33:48 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:34:38 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:34:38 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:34:38 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:35:28 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:35:28 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:35:28 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:36:18 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:36:18 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:36:18 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:37:08 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:37:08 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:37:08 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:37:58 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:37:58 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:37:58 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:38:48 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:38:48 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:38:48 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:39:38 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:39:38 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:39:38 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:40:13 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/14 17:40:13 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/14 17:40:13 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/14 17:40:13 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/14 17:40:13 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/14 17:40:13 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/14 17:40:13 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/14 17:40:14 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:14 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:14 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:14 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/14 17:40:14 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:14 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:14 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/14 17:40:14 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:14 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:15 wazuh-db: INFO: Graceful process shutdown.
+2025/09/14 17:40:15 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 17:40:16 wazuh-authd: INFO: Exiting...
+2025/09/14 17:40:17 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 17:40:17 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 17:40:18 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/14 17:40:18 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/14 17:40:18 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/14 17:40:18 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/14 17:40:18 wazuh-authd: INFO: Started (pid: 128723).
+2025/09/14 17:40:18 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/14 17:40:18 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/14 17:40:18 wazuh-db: INFO: Started (pid: 128736).
+2025/09/14 17:40:18 wazuh-execd: INFO: Started (pid: 128747).
+2025/09/14 17:40:19 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/14 17:40:19 wazuh-analysisd: INFO: Started (pid: 128773).
+2025/09/14 17:40:20 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/14 17:40:20 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: Started (pid: 128837).
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/14 17:40:20 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/14 17:40:20 rootcheck: INFO: Starting rootcheck scan.
+2025/09/14 17:40:21 wazuh-remoted: INFO: Started (pid: 128858). Listening on port 1514/TCP (secure).
+2025/09/14 17:40:21 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 17:40:22 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/14 17:40:22 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/14 17:40:22 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/14 17:40:22 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/14 17:40:22 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/14 17:40:22 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/14 17:40:22 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/14 17:40:22 wazuh-logcollector: INFO: Started (pid: 128941).
+2025/09/14 17:40:23 wazuh-monitord: INFO: Started (pid: 128994).
+2025/09/14 17:40:24 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/14 17:40:24 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 17:40:24 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 17:40:24 wazuh-modulesd: INFO: Started (pid: 129049).
+2025/09/14 17:40:24 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/14 17:40:24 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/14 17:40:24 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/14 17:40:24 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/14 17:40:24 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/14 17:40:24 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/14 17:40:24 wazuh-modulesd:database: INFO: Module started.
+2025/09/14 17:40:24 sca: INFO: Module started.
+2025/09/14 17:40:24 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:40:24 wazuh-modulesd:download: INFO: Module started.
+2025/09/14 17:40:24 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/14 17:40:24 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/14 17:40:24 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/14 17:40:24 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/14 17:40:24 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/14 17:40:24 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:40:24 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/14 17:40:24 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/14 17:40:25 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/14 17:40:28 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 17:40:28 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/14 17:40:29 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:40:29 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:40:29 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:41:01 rootcheck: INFO: Ending rootcheck scan.
+2025/09/14 17:41:19 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:41:19 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:41:19 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:42:09 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:42:09 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:42:09 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:42:59 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:42:59 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:42:59 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:43:49 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:43:49 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:43:49 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:44:39 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:44:39 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:44:39 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:45:29 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:45:29 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:45:29 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:46:19 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:46:19 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:46:19 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:47:09 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:47:09 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:47:09 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:47:59 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:47:59 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:47:59 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:48:49 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:48:49 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:48:49 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:49:39 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:49:39 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:49:39 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:50:30 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:50:30 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:50:30 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:51:20 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:51:20 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:51:20 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:52:10 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:52:10 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:52:10 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:53:00 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:53:00 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:53:00 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:53:50 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:53:50 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:53:50 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:54:40 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:54:40 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:54:40 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:55:30 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:55:30 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:55:30 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:56:20 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:56:20 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:56:20 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:57:10 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:57:10 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:57:10 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:58:00 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:58:00 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:58:00 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:58:50 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:58:50 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:58:50 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 17:59:41 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 17:59:41 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 17:59:41 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:00:31 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:00:31 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:00:31 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:01:21 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:01:21 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:01:21 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:02:11 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:02:11 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:02:11 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:03:01 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:03:01 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:03:01 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:03:51 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:03:51 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:03:51 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:04:41 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:04:41 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:04:41 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:05:03 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/14 18:05:03 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/14 18:05:03 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/14 18:05:03 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/14 18:05:03 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/14 18:05:03 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/14 18:05:03 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/14 18:05:03 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:03 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:03 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:03 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/14 18:05:03 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:03 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:04 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/14 18:05:04 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:04 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:05 wazuh-db: INFO: Graceful process shutdown.
+2025/09/14 18:05:05 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:05:06 wazuh-authd: INFO: Exiting...
+2025/09/14 18:05:15 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 18:05:15 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 18:05:16 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/14 18:05:16 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/14 18:05:16 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/14 18:05:16 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/14 18:05:16 wazuh-authd: INFO: Started (pid: 1855).
+2025/09/14 18:05:16 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/14 18:05:16 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/14 18:05:18 wazuh-db: INFO: Started (pid: 1924).
+2025/09/14 18:05:19 wazuh-execd: INFO: Started (pid: 1956).
+2025/09/14 18:05:20 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/14 18:05:20 wazuh-analysisd: INFO: Started (pid: 1971).
+2025/09/14 18:05:20 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/14 18:05:20 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: Started (pid: 2037).
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/14 18:05:21 rootcheck: INFO: Starting rootcheck scan.
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/14 18:05:21 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/14 18:05:22 wazuh-remoted: INFO: Started (pid: 2053). Listening on port 1514/TCP (secure).
+2025/09/14 18:05:22 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 18:05:22 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/14 18:05:22 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/14 18:05:23 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/14 18:05:23 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/14 18:05:23 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/14 18:05:23 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/14 18:05:23 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/14 18:05:23 wazuh-logcollector: INFO: Started (pid: 2112).
+2025/09/14 18:05:24 wazuh-monitord: INFO: Started (pid: 2170).
+2025/09/14 18:05:25 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/14 18:05:25 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 18:05:25 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 18:05:25 wazuh-modulesd: INFO: Started (pid: 2237).
+2025/09/14 18:05:25 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/14 18:05:25 sca: INFO: Module started.
+2025/09/14 18:05:25 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:05:25 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/14 18:05:25 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/14 18:05:25 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/14 18:05:25 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/14 18:05:25 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/14 18:05:25 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/14 18:05:25 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/14 18:05:25 wazuh-modulesd:database: INFO: Module started.
+2025/09/14 18:05:25 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/14 18:05:25 wazuh-modulesd:download: INFO: Module started.
+2025/09/14 18:05:25 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:05:25 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/14 18:05:25 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/14 18:05:25 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-vulnerabilities-student-virtual-machine', retrying until the connection is successful.
+2025/09/14 18:05:25 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/14 18:05:25 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/14 18:05:29 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:05:29 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/14 18:05:34 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:05:34 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:05:34 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:06:24 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:06:24 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:06:24 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:06:26 rootcheck: INFO: Ending rootcheck scan.
+2025/09/14 18:06:27 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/14 18:07:14 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:07:14 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:07:14 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:08:04 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:08:04 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:08:04 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:08:54 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:08:54 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:08:54 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:09:05 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/14 18:09:05 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/14 18:09:05 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/14 18:09:05 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/14 18:09:05 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/14 18:09:05 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/14 18:09:05 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/14 18:09:05 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:05 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:05 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:05 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/14 18:09:05 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:06 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:06 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/14 18:09:06 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:06 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:07 wazuh-db: INFO: Graceful process shutdown.
+2025/09/14 18:09:07 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:09:07 wazuh-authd: INFO: Exiting...
+2025/09/14 18:09:09 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 18:09:09 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 18:09:10 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/14 18:09:10 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/14 18:09:10 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/14 18:09:10 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/14 18:09:10 wazuh-authd: INFO: Started (pid: 6011).
+2025/09/14 18:09:10 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/14 18:09:10 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/14 18:09:11 wazuh-db: INFO: Started (pid: 6027).
+2025/09/14 18:09:12 wazuh-execd: INFO: Started (pid: 6056).
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: Started (pid: 6079).
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/14 18:09:13 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/14 18:09:13 rootcheck: INFO: Starting rootcheck scan.
+2025/09/14 18:09:13 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/14 18:09:13 wazuh-analysisd: INFO: Started (pid: 6070).
+2025/09/14 18:09:13 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/14 18:09:13 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/14 18:09:14 wazuh-remoted: INFO: Started (pid: 6155). Listening on port 1514/TCP (secure).
+2025/09/14 18:09:14 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 18:09:14 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/14 18:09:14 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/14 18:09:15 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/14 18:09:15 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/14 18:09:15 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/14 18:09:15 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/14 18:09:15 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/14 18:09:15 wazuh-logcollector: INFO: Started (pid: 6224).
+2025/09/14 18:09:16 wazuh-monitord: INFO: Started (pid: 6275).
+2025/09/14 18:09:17 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/14 18:09:17 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 18:09:17 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 18:09:17 wazuh-modulesd: INFO: Started (pid: 6331).
+2025/09/14 18:09:17 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/14 18:09:17 sca: INFO: Module started.
+2025/09/14 18:09:17 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/14 18:09:17 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:09:17 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/14 18:09:17 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/14 18:09:17 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/14 18:09:17 wazuh-modulesd:database: INFO: Module started.
+2025/09/14 18:09:17 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/14 18:09:17 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/14 18:09:17 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/14 18:09:17 wazuh-modulesd:download: INFO: Module started.
+2025/09/14 18:09:17 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/14 18:09:17 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/14 18:09:17 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/14 18:09:17 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:09:17 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/14 18:09:17 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/14 18:09:17 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/14 18:09:21 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:09:21 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/14 18:09:44 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:09:44 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:09:44 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:10:15 rootcheck: INFO: Ending rootcheck scan.
+2025/09/14 18:10:34 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:10:34 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:10:34 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:11:24 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:11:24 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:11:24 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:12:14 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:12:14 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:12:14 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:13:04 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:13:04 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:13:04 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:13:54 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:13:54 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:13:54 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:14:44 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:14:44 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:14:44 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:15:35 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:15:35 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:15:35 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:16:25 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:16:25 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:16:25 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:17:15 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:17:15 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:17:15 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:17:34 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/14 18:17:34 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/14 18:17:34 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/14 18:17:34 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/14 18:17:34 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/14 18:17:34 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/14 18:17:34 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/14 18:17:34 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:35 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:35 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:35 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/14 18:17:35 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:35 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:35 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/14 18:17:35 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:35 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:36 wazuh-db: INFO: Graceful process shutdown.
+2025/09/14 18:17:36 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:17:37 wazuh-authd: INFO: Exiting...
+2025/09/14 18:17:38 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 18:17:38 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 18:17:39 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/14 18:17:39 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/14 18:17:39 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/14 18:17:39 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/14 18:17:39 wazuh-authd: INFO: Started (pid: 10363).
+2025/09/14 18:17:39 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/14 18:17:39 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/14 18:17:39 wazuh-db: INFO: Started (pid: 10377).
+2025/09/14 18:17:40 wazuh-execd: INFO: Started (pid: 10401).
+2025/09/14 18:17:41 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/14 18:17:41 wazuh-analysisd: INFO: Started (pid: 10412).
+2025/09/14 18:17:41 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/14 18:17:41 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: Started (pid: 10477).
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/14 18:17:41 rootcheck: INFO: Starting rootcheck scan.
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/14 18:17:41 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/14 18:17:42 wazuh-remoted: INFO: Started (pid: 10495). Listening on port 1514/TCP (secure).
+2025/09/14 18:17:42 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 18:17:43 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/14 18:17:43 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/14 18:17:43 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/14 18:17:43 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/14 18:17:43 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/14 18:17:43 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/14 18:17:43 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/14 18:17:43 wazuh-logcollector: INFO: Started (pid: 10556).
+2025/09/14 18:17:44 wazuh-monitord: INFO: Started (pid: 10605).
+2025/09/14 18:17:45 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/14 18:17:45 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/14 18:17:45 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/14 18:17:45 wazuh-modulesd: INFO: Started (pid: 10659).
+2025/09/14 18:17:45 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/14 18:17:45 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/14 18:17:45 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/14 18:17:45 sca: INFO: Module started.
+2025/09/14 18:17:45 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:17:45 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/14 18:17:45 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/14 18:17:45 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/14 18:17:45 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/14 18:17:45 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/14 18:17:45 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/14 18:17:45 wazuh-modulesd:database: INFO: Module started.
+2025/09/14 18:17:45 wazuh-modulesd:download: INFO: Module started.
+2025/09/14 18:17:45 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/14 18:17:45 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/14 18:17:45 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:17:46 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/14 18:17:46 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/14 18:17:46 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/14 18:17:49 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/14 18:17:49 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/14 18:18:05 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:18:05 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:18:05 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:18:55 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:18:55 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:18:55 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:19:00 rootcheck: INFO: Ending rootcheck scan.
+2025/09/14 18:19:45 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:19:45 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:19:45 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:20:35 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:20:35 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:20:35 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:21:25 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:21:25 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:21:25 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:22:15 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:22:15 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:22:15 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:23:21 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:23:21 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:23:21 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:24:12 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:24:12 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:24:12 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:25:02 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:25:02 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:25:02 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' doesn't comply with the registration time to be removed.
+2025/09/14 18:25:54 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:25:54 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:25:54 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:26:44 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:26:44 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:26:44 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:27:34 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:27:34 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:27:34 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:28:54 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:28:54 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:28:54 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:29:44 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:29:44 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:29:44 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:30:34 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:30:34 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:30:34 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:31:24 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:31:24 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:31:24 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:32:14 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:32:14 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:32:14 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:32:39 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:32:39 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:32:39 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:33:05 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:33:05 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:33:05 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:33:55 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:33:55 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:33:55 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:34:45 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:34:45 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:34:45 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:35:35 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:35:35 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:35:35 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:36:25 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:36:25 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:36:25 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:37:15 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:37:15 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:37:15 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '001' key already exists on the manager.
+2025/09/14 18:37:23 wazuh-authd: INFO: Agent '001' (DESKTOP-G2OBL3D) deleted (requested locally)
+2025/09/14 18:37:32 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2025/09/14 18:37:32 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 18:37:39 wazuh-authd: INFO: Agent key generated for agent 'win' (requested locally)
+2025/09/14 18:37:42 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2025/09/14 18:37:42 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 18:38:42 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:38:42 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:38:42 wazuh-authd: INFO: Agent key generated for 'DESKTOP-G2OBL3D' (requested by any)
+2025/09/14 18:38:42 wazuh-remoted: INFO: (1409): Authentication file changed. Updating.
+2025/09/14 18:38:42 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/14 18:39:52 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:39:52 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:39:52 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '003' doesn't comply with the registration time to be removed.
+2025/09/14 18:40:42 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:40:42 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:40:42 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '003' doesn't comply with the registration time to be removed.
+2025/09/14 18:41:30 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:41:31 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:41:31 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '003' doesn't comply with the registration time to be removed.
+2025/09/14 18:41:32 wazuh-authd: INFO: New connection from 192.168.1.10
+2025/09/14 18:41:32 wazuh-authd: INFO: Received request for a new agent (DESKTOP-G2OBL3D) from: 192.168.1.10
+2025/09/14 18:41:32 wazuh-authd: WARNING: Duplicate name 'DESKTOP-G2OBL3D', rejecting enrollment. Agent '003' doesn't comply with the registration time to be removed.
+2025/09/14 18:42:12 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/14 18:42:12 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/14 18:42:12 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/14 18:42:12 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/14 18:42:12 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/14 18:42:12 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/14 18:42:12 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/14 18:42:12 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:12 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:12 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:12 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/14 18:42:12 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:12 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:12 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/14 18:42:12 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:12 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:13 wazuh-db: INFO: Graceful process shutdown.
+2025/09/14 18:42:13 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/14 18:42:14 wazuh-authd: INFO: Exiting...
+2025/09/15 15:48:00 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/15 15:48:00 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/15 15:48:03 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/15 15:48:03 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/15 15:48:03 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/15 15:48:03 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/15 15:48:03 wazuh-authd: INFO: Started (pid: 1979).
+2025/09/15 15:48:03 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/15 15:48:03 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/15 15:48:04 wazuh-db: INFO: Started (pid: 2002).
+2025/09/15 15:48:05 wazuh-execd: INFO: Started (pid: 2034).
+2025/09/15 15:48:06 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/15 15:48:06 wazuh-analysisd: INFO: Started (pid: 2050).
+2025/09/15 15:48:06 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/15 15:48:06 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: Started (pid: 2111).
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/15 15:48:07 rootcheck: INFO: Starting rootcheck scan.
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/15 15:48:07 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/15 15:48:08 wazuh-remoted: INFO: Started (pid: 2132). Listening on port 1514/TCP (secure).
+2025/09/15 15:48:08 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/15 15:48:09 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/15 15:48:09 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/15 15:48:09 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/15 15:48:09 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/15 15:48:09 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/15 15:48:09 wazuh-logcollector: INFO: Started (pid: 2173).
+2025/09/15 15:48:10 wazuh-monitord: INFO: Started (pid: 2440).
+2025/09/15 15:48:10 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/15 15:48:10 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/15 15:48:10 wazuh-modulesd: INFO: Started (pid: 2449).
+2025/09/15 15:48:10 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/15 15:48:10 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/15 15:48:10 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/15 15:48:10 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/15 15:48:10 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/15 15:48:10 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/15 15:48:10 sca: INFO: Module started.
+2025/09/15 15:48:10 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:48:10 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/15 15:48:10 wazuh-modulesd:database: INFO: Module started.
+2025/09/15 15:48:10 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/15 15:48:10 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/15 15:48:10 wazuh-modulesd:download: INFO: Module started.
+2025/09/15 15:48:10 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:48:10 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/15 15:48:10 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/15 15:48:10 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-vulnerabilities-student-virtual-machine', retrying until the connection is successful.
+2025/09/15 15:48:11 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/15 15:48:11 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/15 15:48:12 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/15 15:48:12 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/15 15:48:12 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/15 15:48:15 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:48:15 sca: INFO: Security Configuration Assessment scan finished. Duration: 5 seconds.
+2025/09/15 15:49:13 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/15 15:49:16 rootcheck: INFO: Ending rootcheck scan.
+2025/09/15 15:53:30 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/15 15:53:30 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/15 15:53:30 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/15 15:53:30 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/15 15:53:30 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/15 15:53:30 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/15 15:53:30 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/15 15:53:30 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:30 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:30 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:30 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/15 15:53:30 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:30 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:31 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/15 15:53:31 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:31 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:32 wazuh-db: INFO: Graceful process shutdown.
+2025/09/15 15:53:32 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:32 wazuh-authd: INFO: Exiting...
+2025/09/15 15:53:40 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/15 15:53:40 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/15 15:53:42 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/15 15:53:42 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/15 15:53:42 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/15 15:53:42 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/15 15:53:42 wazuh-authd: INFO: Started (pid: 1924).
+2025/09/15 15:53:42 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/15 15:53:42 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/15 15:53:43 wazuh-db: INFO: Started (pid: 2000).
+2025/09/15 15:53:44 wazuh-execd: INFO: Started (pid: 2055).
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: Started (pid: 2386).
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/15 15:53:45 rootcheck: INFO: Starting rootcheck scan.
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/15 15:53:45 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/15 15:53:45 wazuh-remoted: INFO: Started (pid: 2410). Listening on port 1514/TCP (secure).
+2025/09/15 15:53:45 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/15 15:53:46 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/15 15:53:46 wazuh-analysisd: INFO: Started (pid: 2377).
+2025/09/15 15:53:46 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/15 15:53:46 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/15 15:53:46 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/15 15:53:46 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/15 15:53:46 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/15 15:53:46 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/15 15:53:46 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/15 15:53:46 wazuh-logcollector: INFO: Started (pid: 2782).
+2025/09/15 15:53:47 wazuh-monitord: INFO: Started (pid: 2869).
+2025/09/15 15:53:48 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/15 15:53:48 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/15 15:53:48 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/15 15:53:48 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/15 15:53:48 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/15 15:53:48 wazuh-modulesd: INFO: Started (pid: 2945).
+2025/09/15 15:53:48 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/15 15:53:48 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/15 15:53:48 wazuh-modulesd:database: INFO: Module started.
+2025/09/15 15:53:48 sca: INFO: Module started.
+2025/09/15 15:53:48 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:53:48 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/15 15:53:48 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/15 15:53:48 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/15 15:53:48 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/15 15:53:48 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/15 15:53:48 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/15 15:53:48 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/15 15:53:48 wazuh-modulesd:download: INFO: Module started.
+2025/09/15 15:53:48 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:53:48 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/15 15:53:48 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/15 15:53:48 indexer-connector: WARNING: IndexerConnector initialization failed for index 'wazuh-states-vulnerabilities-student-virtual-machine', retrying until the connection is successful.
+2025/09/15 15:53:48 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/15 15:53:49 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/15 15:53:52 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:53:52 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/15 15:53:53 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/15 15:53:53 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/15 15:53:53 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/15 15:53:53 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/15 15:53:53 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/15 15:53:53 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/15 15:53:53 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/15 15:53:53 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:54 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:54 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:54 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/15 15:53:54 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:54 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:54 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/15 15:53:54 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:54 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:55 wazuh-db: INFO: Graceful process shutdown.
+2025/09/15 15:53:55 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:53:56 wazuh-authd: INFO: Exiting...
+2025/09/15 15:53:57 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/15 15:53:57 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/15 15:53:58 wazuh-csyslogd: INFO: Remote syslog server not configured. Clean exit.
+2025/09/15 15:53:58 wazuh-dbd: INFO: Database not configured. Clean exit.
+2025/09/15 15:53:58 wazuh-integratord: INFO: Remote integrations not configured. Clean exit.
+2025/09/15 15:53:58 wazuh-agentlessd: INFO: Not configured. Exiting.
+2025/09/15 15:53:58 wazuh-authd: INFO: Started (pid: 4230).
+2025/09/15 15:53:58 wazuh-authd: INFO: Accepting connections on port 1515. No password required.
+2025/09/15 15:53:58 wazuh-authd: INFO: Setting network timeout to 1.000000 sec.
+2025/09/15 15:53:59 wazuh-db: INFO: Started (pid: 4247).
+2025/09/15 15:54:00 wazuh-execd: INFO: Started (pid: 4276).
+2025/09/15 15:54:01 wazuh-analysisd: INFO: Total rules enabled: '7014'
+2025/09/15 15:54:01 wazuh-analysisd: INFO: Started (pid: 4290).
+2025/09/15 15:54:01 wazuh-analysisd: INFO: EPS limit disabled
+2025/09/15 15:54:01 wazuh-analysisd: INFO: (7200): Logtest started
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: Started (pid: 4395).
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6003): Monitoring path: '/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6003): Monitoring path: '/boot', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6003): Monitoring path: '/etc', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6003): Monitoring path: '/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/bin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6003): Monitoring path: '/usr/sbin', with options 'size | permissions | owner | group | mtime | inode | hash_md5 | hash_sha1 | hash_sha256 | scheduled'.
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mtab'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/hosts.deny'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/mail/statistics'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random-seed'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/random.seed'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/adjtime'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/httpd/logs'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/utmpx'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/wtmpx'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/cups/certs'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/dumpdates'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6206): Ignore 'file' entry '/etc/svc/volatile'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6207): Ignore 'file' sregex '.log$|.swp$'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6004): No diff for file: '/etc/ssl/private.key'
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6000): Starting daemon...
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6010): File integrity monitoring scan frequency: 43200 seconds
+2025/09/15 15:54:02 wazuh-syscheckd: INFO: (6008): File integrity monitoring scan started.
+2025/09/15 15:54:02 rootcheck: INFO: Starting rootcheck scan.
+2025/09/15 15:54:03 wazuh-remoted: INFO: Started (pid: 4451). Listening on port 1514/TCP (secure).
+2025/09/15 15:54:03 wazuh-remoted: INFO: (1410): Reading authentication keys file.
+2025/09/15 15:54:03 wazuh-syscheckd: INFO: (6009): File integrity monitoring scan ended.
+2025/09/15 15:54:03 wazuh-syscheckd: INFO: FIM sync module started.
+2025/09/15 15:54:04 wazuh-logcollector: INFO: Monitoring output of command(360): df -P
+2025/09/15 15:54:04 wazuh-logcollector: INFO: Monitoring full output of command(360): netstat -tulpn | sed 's/\([[:alnum:]]\+\)\ \+[[:digit:]]\+\ \+[[:digit:]]\+\ \+\(.*\):\([[:digit:]]*\)\ \+\([0-9\.\:\*]\+\).\+\ \([[:digit:]]*\/[[:alnum:]\-]*\).*/\1 \2 == \3 == \4 \5/' | sort -k 4 -g | sed 's/ == \(.*\) ==/:\1/' | sed 1,2d
+2025/09/15 15:54:04 wazuh-logcollector: INFO: Monitoring full output of command(360): last -n 20
+2025/09/15 15:54:04 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/ossec/logs/active-responses.log'.
+2025/09/15 15:54:04 wazuh-logcollector: INFO: (1950): Analyzing file: '/var/log/dpkg.log'.
+2025/09/15 15:54:04 wazuh-logcollector: INFO: Started (pid: 4591).
+2025/09/15 15:54:05 wazuh-monitord: INFO: Started (pid: 4739).
+2025/09/15 15:54:06 wazuh-logcollector: INFO: (9203): Monitoring journal entries.
+2025/09/15 15:54:06 wazuh-modulesd:router: INFO: Loaded router module.
+2025/09/15 15:54:06 wazuh-modulesd:content_manager: INFO: Loaded content_manager module.
+2025/09/15 15:54:06 wazuh-modulesd: INFO: Started (pid: 5102).
+2025/09/15 15:54:06 wazuh-modulesd:agent-upgrade: INFO: (8153): Module Agent Upgrade started.
+2025/09/15 15:54:06 sca: INFO: Module started.
+2025/09/15 15:54:06 sca: INFO: Loaded policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:54:06 wazuh-modulesd:ciscat: INFO: Module disabled. Exiting...
+2025/09/15 15:54:06 wazuh-modulesd:osquery: INFO: Module disabled. Exiting...
+2025/09/15 15:54:06 wazuh-modulesd:vulnerability-scanner: INFO: Starting vulnerability_scanner module.
+2025/09/15 15:54:06 wazuh-modulesd:router: INFO: Starting router module.
+2025/09/15 15:54:06 wazuh-modulesd:task-manager: INFO: (8200): Module Task Manager started.
+2025/09/15 15:54:06 sca: INFO: Starting Security Configuration Assessment scan.
+2025/09/15 15:54:06 wazuh-modulesd:content_manager: INFO: Starting content_manager module.
+2025/09/15 15:54:06 wazuh-modulesd:database: INFO: Module started.
+2025/09/15 15:54:06 wazuh-modulesd:control: INFO: Starting control thread.
+2025/09/15 15:54:06 wazuh-modulesd:download: INFO: Module started.
+2025/09/15 15:54:06 wazuh-modulesd:syscollector: INFO: Module started.
+2025/09/15 15:54:06 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2025/09/15 15:54:06 sca: INFO: Starting evaluation of policy: '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:54:06 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2025/09/15 15:54:07 indexer-connector: INFO: IndexerConnector initialized successfully for index: wazuh-states-vulnerabilities-student-virtual-machine.
+2025/09/15 15:54:07 wazuh-modulesd:vulnerability-scanner: INFO: Vulnerability scanner module started.
+2025/09/15 15:54:10 sca: INFO: Evaluation finished for policy '/var/ossec/ruleset/sca/cis_ubuntu22-04.yml'
+2025/09/15 15:54:10 sca: INFO: Security Configuration Assessment scan finished. Duration: 4 seconds.
+2025/09/15 15:55:22 rootcheck: INFO: Ending rootcheck scan.
+2025/09/15 15:59:46 wazuh-modulesd: INFO: Shutting down Wazuh modules.
+2025/09/15 15:59:46 wazuh-modulesd:syscollector: INFO: Stop received for Syscollector.
+2025/09/15 15:59:46 wazuh-modulesd:syscollector: INFO: Module finished.
+2025/09/15 15:59:46 wazuh-modulesd:vulnerability-scanner: INFO: Stopping vulnerability_scanner module.
+2025/09/15 15:59:46 wazuh-modulesd:content-updater: WARNING: The offsets download has been interrupted.
+2025/09/15 15:59:46 wazuh-modulesd:router: INFO: Stopping router module.
+2025/09/15 15:59:46 wazuh-modulesd:content_manager: INFO: Stopping content_manager module.
+2025/09/15 15:59:46 wazuh-monitord: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:46 wazuh-logcollector: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:46 wazuh-remoted: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:46 wazuh-syscheckd: INFO: (1756): Shutdown received. Releasing resources.
+2025/09/15 15:59:46 wazuh-syscheckd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:47 wazuh-analysisd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:47 wazuh-execd: INFO: (1314): Shutdown received. Deleting responses.
+2025/09/15 15:59:47 wazuh-execd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:47 wazuh-db: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:48 wazuh-db: INFO: Graceful process shutdown.
+2025/09/15 15:59:48 wazuh-authd: INFO: (1225): SIGNAL [(15)-(Terminated)] Received. Exit Cleaning...
+2025/09/15 15:59:48 wazuh-authd: INFO: Exiting...
